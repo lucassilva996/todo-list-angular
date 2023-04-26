@@ -6,7 +6,7 @@ import { ToastrService } from 'ngx-toastr';
   providedIn: 'root'
 })
 export class TodoService {
-  fav = [] ;
+  fav: Todo[] ;
   todoList: Todo[] = [
     {
       id: 1, 

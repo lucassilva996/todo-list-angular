@@ -3,5 +3,5 @@ export interface Todo {
     title: string;
     isCompleted: boolean;
     isFavorite: boolean;
-    date?: Date;
+    date: Date;
 }
